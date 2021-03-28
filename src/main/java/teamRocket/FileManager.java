@@ -73,5 +73,11 @@ public class FileManager implements ActionListener{
 		}
 	}
 	*/
-	
+	  public class addFile(final String Nameoffile) {
+        final document = ID;
+        ++ID;
+        file = new File(Nameoffile);
+        final FileItem = new FileItem(document, Nameoffile);
+        return ID;
+	  }
 }
